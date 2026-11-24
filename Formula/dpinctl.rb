@@ -1,34 +1,35 @@
 class Dpinctl < Formula
   desc "Command line for DPIN Connect"
   homepage "https://github.com/manitobahealth/homebrew-tap"
-  version "0.2.0"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/manitobahealth/homebrew-tap/releases/download/v0.2.0/dpinctl_0.2.0_darwin_arm64.tar.gz"
-      sha256 "b3afb278bb857fe5379f8ed37b53cb4c49e9da74c4c6af2da578d89394bbf40b"
+      url "https://github.com/manitobahealth/homebrew-tap/releases/download/v0.3.0/dpinctl_0.3.0_darwin_arm64.tar.gz"
+      sha256 "d0b343dd3e1a11d020512835c7448af66b148c69bced73e4706c431485c46b09"
     end
 
     on_intel do
-      url "https://github.com/manitobahealth/homebrew-tap/releases/download/v0.2.0/dpinctl_0.2.0_darwin_amd64.tar.gz"
-      sha256 "0cd1b8147d0fee97ffa424bb923050656dad882e6e1796342a558780d2ce746c"
+      url "https://github.com/manitobahealth/homebrew-tap/releases/download/v0.3.0/dpinctl_0.3.0_darwin_amd64.tar.gz"
+      sha256 "dc162f021c66fd2a49c8c435187b560f144c1b1b0831c59600fafb767ea7374b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/manitobahealth/homebrew-tap/releases/download/v0.2.0/dpinctl_0.2.0_linux_arm64.tar.gz"
-      sha256 "de9ea3e9a6f2370d02722c4999c552cc4e4b3867d9cd558c48fdd7caa6d169c7"
+      url "https://github.com/manitobahealth/homebrew-tap/releases/download/v0.3.0/dpinctl_0.3.0_linux_arm64.tar.gz"
+      sha256 "fa8e90a955fc06a362b93ff269c8b175f6bc0ff59733eff0eac91c02e9b42f72"
     end
 
     on_intel do
-      url "https://github.com/manitobahealth/homebrew-tap/releases/download/v0.2.0/dpinctl_0.2.0_linux_amd64.tar.gz"
-      sha256 "1c5fbc25a4264880828dcb86d42cea126377a5dcd48ca03bd6f16805796438c3"
+      url "https://github.com/manitobahealth/homebrew-tap/releases/download/v0.3.0/dpinctl_0.3.0_linux_amd64.tar.gz"
+      sha256 "0d56a04d7f039f08fed4e17e7fb09a9b89191cecbfde227b47f49df1bb902606"
     end
   end
 
   def install
     bin.install "dpinctl"
+    generate_completions_from_executable(bin/"dpinctl", "completion")
   end
 
   test do
