@@ -1,16 +1,16 @@
 {
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Command line for DPIN Connect",
     "homepage": "https://github.com/manitobahealth/homebrew-tap",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/manitobahealth/homebrew-tap/releases/download/v0.1.0/dpinctl_0.1.0_windows_amd64.zip",
-            "hash": "0fd3eb7c14d2c543fc24abfa8f26463ffb4396699cf6bcc921269a7369dfc68a"
+            "url": "https://github.com/manitobahealth/homebrew-tap/releases/download/v0.2.0/dpinctl_0.2.0_windows_amd64.zip",
+            "hash": "c93214206711f8e6959868ed0d538c8f348e515c7e41de5471dc959c1f77cf91"
         },
         "arm64": {
-            "url": "https://github.com/manitobahealth/homebrew-tap/releases/download/v0.1.0/dpinctl_0.1.0_windows_arm64.zip",
-            "hash": "fe09b8e24f6c4547236b513c5591afb7fe607b81a15547b22ad63dede4e8ac85"
+            "url": "https://github.com/manitobahealth/homebrew-tap/releases/download/v0.2.0/dpinctl_0.2.0_windows_arm64.zip",
+            "hash": "c500fcc5fb91d7b43fbabf88f2abdec568f436e93be00e2beeaee7b71fd65b34"
         }
     },
     "bin": "dpinctl.exe"
