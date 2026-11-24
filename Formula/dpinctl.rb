@@ -1,29 +1,29 @@
 class Dpinctl < Formula
   desc "Command line for DPIN Connect"
   homepage "https://github.com/manitobahealth/homebrew-tap"
-  version "0.7.0"
+  version "0.8.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/manitobahealth/homebrew-tap/releases/download/v0.7.0/dpinctl_0.7.0_darwin_arm64.tar.gz"
-      sha256 "138b5bef41cc03029e3e17a1ac50a2012e273dfd415a5f37e643fc2e3afcd489"
+      url "https://github.com/manitobahealth/homebrew-tap/releases/download/v0.8.0/dpinctl_0.8.0_darwin_arm64.tar.gz"
+      sha256 "6ce054d64abe7840b62b8761539d971076c914c35fd0521dad93a897a6b13758"
     end
 
     on_intel do
-      url "https://github.com/manitobahealth/homebrew-tap/releases/download/v0.7.0/dpinctl_0.7.0_darwin_amd64.tar.gz"
-      sha256 "02f78a4317042155211154b23fcc751ac8c9d0a754185b6da892b4ffacb8cb90"
+      url "https://github.com/manitobahealth/homebrew-tap/releases/download/v0.8.0/dpinctl_0.8.0_darwin_amd64.tar.gz"
+      sha256 "06ccdb9711745c2903bbd9da0efe718200e5454387f183c65ad5530fa38306c0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/manitobahealth/homebrew-tap/releases/download/v0.7.0/dpinctl_0.7.0_linux_arm64.tar.gz"
-      sha256 "fbfb5a464f57e3bf48c443fa866fee688249128cfa5c9f7be08f518377661f9b"
+      url "https://github.com/manitobahealth/homebrew-tap/releases/download/v0.8.0/dpinctl_0.8.0_linux_arm64.tar.gz"
+      sha256 "a7cc0515dbd3210b0d297640078073ec247d1014b95934d7450dfc9e93721bcd"
     end
 
     on_intel do
-      url "https://github.com/manitobahealth/homebrew-tap/releases/download/v0.7.0/dpinctl_0.7.0_linux_amd64.tar.gz"
-      sha256 "c2f55c70125336113692db25478a5d52ab9600639d490b3aad3fc53fe18061d6"
+      url "https://github.com/manitobahealth/homebrew-tap/releases/download/v0.8.0/dpinctl_0.8.0_linux_amd64.tar.gz"
+      sha256 "859bb22ba249c93d8cdd12a7b9f1b93834d23f9b1b7ffa950b18d877b1ebf9e3"
     end
   end
 
